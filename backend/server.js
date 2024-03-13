@@ -3,7 +3,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 
-import authRoutes from "./Routes/auth.Routes.js";
+import authRoutes from "./Routes/auth.routes.js";
 import messageRoutes from "./Routes/message.routes.js";
 import userRoutes from "./Routes/user.routes.js";
 
