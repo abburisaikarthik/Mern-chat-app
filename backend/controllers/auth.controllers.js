@@ -15,6 +15,7 @@ export const logout = async (req, res) => {
 
 export const login = async (req, res) => {
   try {
+    // console.log(req.body);
     const { username, password } = req.body;
     const user = await User.findOne({ username });
     const ispasswordCorrect = await bycrypt.compare(
